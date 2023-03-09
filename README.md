@@ -39,3 +39,5 @@ This function prints the information assigned to a planet.
 
 In the end, the memory allocated for the galaxy, each planet, its data, their shields and shield data is freed ("free_galaxy", "free_planet" functions).
 
+# Link to project:
+https://ocw.cs.pub.ro/courses/sd-ca/teme/tema1-2021
