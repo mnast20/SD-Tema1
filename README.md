@@ -21,7 +21,8 @@ This function assigns new value to wanted shield by using memcpy.
 ### "Expand" function
 The "Planet_Add_Shield_Last" function is called and assigns given value to the new last shield of the specified planet.
 
-## RMV command: // "Remove_Shield" function
+## RMV command:
+### "Remove_Shield" function
 This command removes the shield at given index of a certain planet. It cuts the links to other shields and frees the data allocated for  the removed shield and its value.
 
 ## COL command:
