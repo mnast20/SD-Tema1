@@ -3,7 +3,6 @@
 The galaxy is a doubly circular list consisting of "nodes" or planets (struct Node). Every planet contains data, some information about it (struct Planet), for example its name, its number of shields, number of planets destroyed and the list of shields (struct Node).  
 
 The function "Get_Node" is used to locate the planet at given index in the galaxy.  
-
 The function "Get_Shield" finds the requested shield in the data of the planet (struct Planet).   
 
 ## ADD command:
@@ -29,10 +28,12 @@ This command removes the shield at given index of a certain planet. It cuts the 
 ### "Collision" function
 After the collision of the 2 specific shields, if either one of the both values become -1, then the "Remove_Planet" function is called to delete the planet that lost its shield and as a result, got destroyed.
 
-ROT command: // "Rotate" function
+## ROT command:
+### "Rotate" function
 In case of a trigonometrical rotation, a permutation to the left is performed. However, if a counter trigonometrical rotation is requested, a permutation to the right is used. 
 		
-SHW command: // Show_Planet function
+## SHW command:
+### Show_Planet function
 This function prints the information assigned to a planet.
 
 In the end, the memory allocated for the galaxy, each planet, its data, their shields and shield data is freed ("free_galaxy", "free_planet" functions).
